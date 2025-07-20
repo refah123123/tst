@@ -1,7 +1,7 @@
 
 
 public class Edge {
-    int dest, weight;
+    int dest, weight, umur;
     public Edge(int dest, int weight){
         this.dest = dest;
         this.weight = weight;
@@ -13,6 +13,10 @@ public class Edge {
   
     public int getWeight(){
         return this.weight;
+    }
+
+    public int getUmur() {
+        return this.umur;
     }
 
     
